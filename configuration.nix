@@ -120,6 +120,16 @@
   services.xserver.enable = true;
   services.displayManager.sddm.enable = true;
   services.power-profiles-daemon.enable = true;
+  services.openssh = {
+    enable = true;
+    ports = [ 22 ];
+    settings = {
+      PasswordAuthentication = true;
+      X11Forwarding = false;
+      PermitRootLogin = "prohibit-password"; # "yes", "without-password", "prohibit-password", "forced-commands-only", "no"
+    };
+  };
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
