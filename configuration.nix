@@ -77,16 +77,11 @@
     rofi
     wlogout
     pavucontrol
-
-    #kitty # Hyprland
-#    inter-font # Hyprland
-#    ttf-noto-nerd # Hyprland
-#    apple-fonts # Hyprland
-#    ttf-ms-win11-segoe-ui-variable # Hyprland
-    #waybar # Hyprland
-    #rofi # Hyprland
-    #pavucontrol
     #blueman
+#   inter-font # Hyprland
+#   ttf-noto-nerd # Hyprland
+#   apple-fonts # Hyprland
+#   ttf-ms-win11-segoe-ui-variable # Hyprland
     #noto-fonts
     #noto-fonts-cjk-sans
     #noto-fonts-color-emoji
@@ -97,7 +92,7 @@
     #dina-font
     #proggyfonts
     #bibata-cursors
-#    inter-font\nsudo pacman -S ttf-noto-nerd\nyay -S apple-fonts\nyay -S ttf-ms-win11-segoe-ui-variable
+    #inter-font\nsudo pacman -S ttf-noto-nerd\nyay -S apple-fonts\nyay -S ttf-ms-win11-segoe-ui-variable
 
 
   ];
